@@ -46,22 +46,24 @@ body {
 }
 
 #center h1 {
-    font-size: 60px;
+    /* font-size: 60px; */
+    font-size: 3.5vw;
     font-weight: 500;
-    line-height: 65px;
+    line-height: 3.5vw;
 }
 
 #center-in {
     height: 200px;
-    margin-top: 38px;
+    margin-top: 33px;
     display: flex;
     justify-content: space-between;
 }
 
 #center-in p {
     font-size: 22px;
+    font-size: 1.15vw;
     font-weight: 600;
-    line-height: 32px;
+    line-height: 1.5vw;
 }
 
 #right {
@@ -95,9 +97,75 @@ body {
 }
 
 #bottom {
-    height: 40.2%;
+    height: 40%;
     width: 100%;
     background: url('../images/model.jpg');
     background-position: 0 25%;
     background-size: cover;
+}
+
+@media (max-width: 600px) {
+
+    #nav h4 {
+        font-size: 14px;
+    }
+
+    #nav i {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    #center {
+        padding: 20px 30px;
+    }
+
+    #center h1 {
+        /* font-size: 60px; */
+        font-size: 8.5vw;
+        font-weight: 500;
+        line-height: 12vw;
+    }
+
+    #center-in {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 39px;
+    }
+
+    #center-in p {
+        font-size: 3.5vw;
+        font-weight: 600;
+        line-height: 5vw;
+    }
+
+    #right {
+        width: 100%;
+    }
+
+    .elem {
+        padding: 10px 0;
+        border-top: 1px solid #ddd;
+    }
+
+
+    .elem a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .elem i {
+        font-size: 14px;
+        opacity: 1;
+        color: #333;
+    }
+
+    #bottom {
+        height: 29%;
+        width: 100%;
+        background: url('../images/model.jpg');
+        background-position: 0 25%;
+        background-size: cover;
+    }
 }

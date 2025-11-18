@@ -18,7 +18,7 @@ body {
 }
 
 #nav {
-    height: 70px;
+    height: 60px;
     width: 100%;
     display: flex;
     justify-content: end;
@@ -42,18 +42,18 @@ body {
 }
 
 #center {
-    padding: 40px 80px;
+    padding: 26px 80px;
 }
 
 #center h1 {
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 500;
-    line-height: 90px;
+    line-height: 65px;
 }
 
 #center-in {
     height: 200px;
-    margin-top: 50px;
+    margin-top: 38px;
     display: flex;
     justify-content: space-between;
 }
@@ -95,9 +95,9 @@ body {
 }
 
 #bottom {
-    height: 50%;
+    height: 40.2%;
     width: 100%;
     background: url('../images/model.jpg');
-    background-position: 0 20%;
+    background-position: 0 25%;
     background-size: cover;
 }
